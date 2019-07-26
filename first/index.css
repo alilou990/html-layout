@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    height: 150vh;
+    width: 100%;
+    background-color: lightgray
+}
+
+#firstDiv {
+    margin: 0px;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(53, 50, 50)
+}
+
+#secondDiv {
+    margin: 0 auto;
+    height: 100%;
+    width: 75%;
+    background-color: white;
+
+}
+
+#thirdDiv {
+    margin: 0 auto;
+    height: 10%;
+    width: 75%;
+    background-color: rgb(29, 27, 27)
+}

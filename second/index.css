@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 25px;
+    
+}
+
+.firstContainer {
+    width: 100%;
+    border: 3px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ .first-square {
+    height: 150px;
+  width: 50px;
+  background-color: rgb(125, 29, 214);
+  display: inline-block;
+
+}
+.second-square {
+  height: 225px;
+  width: 450px;
+  background-color: rgb(29, 80, 29);
+  display: inline-block;
+  margin: 0 50px;
+}
+.circle {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    background-color: rgb(90, 181, 211);
+    display: inline-block; 
+}
+.secondContainer {
+    width: 100%;
+  border: 5px dotted black;
+  padding: 50px;
+  box-sizing: border-box ;
+  margin-top: 25px; 
+}
+.boxShadow {
+    width: 100%;
+  height: 200px;
+  background-color: rgb(233, 229, 197);
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.55);
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.thirdContainer {
+    width: 40%;
+    border: 1px solid rgb(223, 221, 221);
+    margin: 30px auto;
+    padding: 150px;
+    background-color: white;
+    box-sizing: border-box;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.20);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.20);
+}
+
+.thirdContainer h1 {
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    letter-spacing: 15px;
+}
